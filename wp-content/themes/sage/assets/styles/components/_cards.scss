@@ -1,0 +1,63 @@
+.card-img img {
+  display: block;
+  max-width: 100%;
+  box-shadow: none;
+}
+.card {
+  position: relative;
+  display: block;
+  background: #fff;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 3rem;
+  h2 {
+    font-size: 2rem;
+  }
+}
+.card-content {
+  padding: 0 1.5rem 1.5rem 1.5rem;
+}
+.card-actions {
+  border-top: 1px solid rgba(160, 160, 160, 0.2);
+  padding: 1.3rem 0 .5rem 0;
+}
+ul.post-categories {
+  list-style-type: none;
+  padding: 0;
+  li a {
+    border: 2px solid $brand-light;
+    padding: 0px 5px;
+    color: $brand-light;
+    overflow: hidden;
+  }
+}
+
+body.post-type-archive-gnp_stories .card .card-actions a {
+  border: 2px solid $brand-light;
+  padding: 5px;
+  color: $brand-light;
+  overflow: hidden;
+  margin-bottom: 1em;
+}
+
+
+//Overlay category on featured image
+.card-img {
+  position: relative;
+  overflow: hidden;
+  p {
+    position: absolute;
+    top: .5em;
+    right: 1em;
+    a {
+      color: #ffffff;
+      background: rgba(0,0,0,0.3);
+      padding: .5em;
+      font-size: 12px;
+      &:hover {
+        text-decoration:none;
+      }
+    }
+  }
+}

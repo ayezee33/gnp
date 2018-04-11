@@ -1,0 +1,27 @@
+footer {
+  margin-top: 3em;
+  padding: 1.5em 0;
+  border-top: 1px solid #fff;
+  ul {
+    list-style-type: none;
+    padding:0;
+  }
+}
+footer.content-info {
+  background: $brand-primary;
+  color: white;
+  ul li span .post-date {
+    color: white;
+  }
+  ul li a {
+    color: white;
+  }
+  .gform_wrapper .top_label .gfield_label {
+    color: white;
+  }
+}
+
+.pagination {
+  display: block;
+  clear: left;
+}

@@ -1,0 +1,22 @@
+.textwidget img {
+  max-width: 100%;
+  height: auto;
+}
+.widget_categories ul,
+.widget_recent_entries ul {
+  list-style-type: none;
+  padding: 0;
+  li {
+    background: $brand_light;
+    border: 2px solid $brand-light;
+    padding: 15px;
+    color: #fff;
+    margin-bottom: 1rem;
+    a {
+      color: #fff;
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}

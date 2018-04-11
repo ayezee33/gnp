@@ -1,0 +1,29 @@
+body {
+  font-family: 'Eurpoa', sans-serif;
+  font-size: 16px;
+  color: #34353d;
+  font-weight: 400;
+}
+h1, h2, h3, h4 {
+  margin-bottom: 24px;
+}
+p,
+ul,
+ol li {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+.center {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+.brand-primary {
+  background: $brand-primary!important;
+  color: white;
+}
+.brand-secondary {
+  background: $brand-light!important;
+  color: white;
+}

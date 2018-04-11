@@ -1,0 +1,35 @@
+{
+  "dependencies": {
+    "main.js": {
+      "files": [
+        "scripts/main.js"
+      ],
+      "vendor": [
+       "../../plugins/roots-share-buttons/assets/styles/share-buttons.js",
+       "../../wp/wp-includes/js/wp-embed.js"
+     ],
+      "main": true
+    },
+    "main.css": {
+      "files": [
+        "styles/main.scss"
+      ],
+      "vendor": [
+       "../../plugins/gravity-forms-bootstrap-3-style/gravity-forms-bootstrap.css",
+       "../../plugins/roots-share-buttons/assets/styles/share-buttons.css"
+     ],
+      "main": true
+    },
+    "customizer.js": {
+      "files": [
+        "scripts/customizer.js"
+      ]
+    },
+    "jquery.js": {
+      "bower": ["jquery"]
+    }
+  },
+  "config": {
+    "devUrl": "http://growthandpurpose.dev"
+  }
+}
