@@ -25,11 +25,12 @@ use Roots\Sage\Wrapper;
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-6">
-            <h1><?php the_field('hero_heading'); ?></h1>
+            <h1><strong><?php the_field('hero_heading'); ?></strong></h1>
             <h3 class="lead"><?php the_field('hero_subheading'); ?></h3>
+            <?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
           </div>
           <div class="col-sm-12 col-lg-6">
-            img
+            <img class="streamline-illustration aligncenter" src="http://growthandpurpose.com/wp-content/uploads/user@2x.png" alt="user illustration">
           </div>
         </div>
       </div>

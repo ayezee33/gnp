@@ -23,72 +23,28 @@ body.home {
   .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
     height: 55px!important;
     font-size: 1.5em;
-    width: 100%;
-    background: $red;
+    padding: 10px 25px;
+    background: $green;
+    border: 1px solid $green;
+    border-radius: 5px;
+    margin-top: 11px;
   }
 }
-body .gform_wrapper .top_label div.ginput_container {
-  margin-top: 11px;
+div.gf_simple_horizontal div.gform_body, div.gf_simple_horizontal_wrapper div.gform_body {
+  width: 57%!important;
 }
-// .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
-//   width: 100%;
-//   padding: 20px;
-//   font-size: 1.5em;
-// }
-// .gform_body input {
-//   height: 55px;
-// }
-// .post-cta-containerx#gform_submit_button_1 {
-//     background: $brand-primary;
-//     color: #fff;
-//     border: none;
-//     padding: 10px 20px;
-//     margin-top: 26px;
-//   }
-// .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
-//   width: 100%!important;
-// }
-// #gform_1 input {
-//   height: 55px;
-//   width: 100%;
-// }
-// #gform_1 > .gform_footer {
-//     display: inline-block;
-//     padding: 0.85em 0 0.625em;
-//     width: 40%;
-// }
-// #gform_1 .gform_body {
-//     display: inline-block;
-//     float: left;
-//     width: 60%;
-// }
-//
-// #gform_submit_button_4 {
-//   width: 100%;
-//   &:hover {
-//     color: white;
-//   }
-// }
-//
-// label {
-//   display: none;
-// }
-// .gform_wrapper .gform_footer {
-//   margin-top: 1px!important;
-// }
-// @media (max-width: 680px) {
-//   #gform_1 > .gform_footer {
-//       display: inline-block;
-//       padding: 0.85em 0 0.625em;
-//       width: 100%;
-//   }
-//   #gform_submit_button_1 {
-//     margin: 0;
-//     width: 100%;
-//   }
-//   #gform_1 .gform_body {
-//     width: 100%;
-//     float: none;
-//     margin: 0;
-//   }
-// }
+@media (max-width: 680px) {
+  body.home {
+    .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
+      display: block!important;
+      width: 100%!important;
+    }
+    div.gf_simple_horizontal div.gform_footer, div.gf_simple_horizontal_wrapper div.gform_footer {
+      width: 100%;
+    }
+    div.gf_simple_horizontal div.gform_body, div.gf_simple_horizontal_wrapper div.gform_body {
+      display: block!important;
+      width: 100%;
+    }
+  }
+}
