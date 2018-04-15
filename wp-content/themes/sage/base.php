@@ -21,7 +21,7 @@ use Roots\Sage\Wrapper;
     <!--Calling Custom Page Hero Section On Home Pages Only-->
     <?php if(is_page_template('template-home.php')) { ?>
     <!-- <?php $background_image = wp_get_attachment_image_src(get_field('background_image'), 'full'); ?> -->
-    <div style="background: url(<?php the_field('background_image')?>) no-repeat center center; background-size: cover;" class="<?php the_field('image_options'); ?> <?php the_field('color'); ?>">
+    <div id="start" style="background: url(<?php the_field('background_image')?>) no-repeat center center; background-size: cover;" class="<?php the_field('image_options'); ?> <?php the_field('color'); ?>">
       <div class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-6">
