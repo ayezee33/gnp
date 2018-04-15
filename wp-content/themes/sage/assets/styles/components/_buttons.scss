@@ -5,13 +5,18 @@
 .btn-primary {
   border-bottom: 2px solid #2b7bb5;
 }
-
-.btn-cd {
-  padding: 15px 30px;
-  font-size: 18px;
-  text-transform: uppercase;
+.btn-outline {
+  border: 1px solid $green;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: $green;
+  margin: 10px 0;
 }
-
+.btn-center {
+  display: block;
+  margin: 10px auto;
+  max-width: 300px;
+}
 .entry-share-btns a, .entry-content .entry-share-btns a {
   background: $green;
   &:hover {

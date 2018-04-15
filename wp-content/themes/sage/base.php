@@ -30,7 +30,7 @@ use Roots\Sage\Wrapper;
             <?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
           </div>
           <div class="col-sm-12 col-lg-6">
-            <img class="streamline-illustration aligncenter" src="http://growthandpurpose.com/wp-content/uploads/user@2x.png" alt="user illustration">
+            <img class="streamline-illustration center hidden-sm hidden-xs" src="http://growthandpurpose.com/wp-content/uploads/user@2x.png" alt="user illustration">
           </div>
         </div>
       </div>
