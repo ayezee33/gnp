@@ -20,8 +20,7 @@ body.home {
   .gform_wrapper input:not([type=radio]):not([type=checkbox]):not([type=submit]):not([type=button]):not([type=image]):not([type=file]) {
     height: 55px;
     border-radius: 5px;
-    border: none;
-
+    border: 1px solid #ccc;
   }
   .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
     height: 55px!important;
@@ -29,6 +28,7 @@ body.home {
     padding: 10px 25px;
     background: $green;
     border: 1px solid $green;
+    color: white;
     border-radius: 5px;
     margin-top: 11px;
   }
