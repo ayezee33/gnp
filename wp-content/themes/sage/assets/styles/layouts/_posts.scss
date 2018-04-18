@@ -1,12 +1,19 @@
-img.wp-post-image {
-  box-shadow: 2px 15px 15px -10px rgba(65,64,66,.5);
-  max-width: 100%;
+// img.wp-post-image {
+//   box-shadow: 2px 15px 15px -10px rgba(65,64,66,.5);
+//   max-width: 100%;
+//   height: auto;
+//   margin-bottom: 1em;
+// }
+// img {
+//   margin-bottom: 1.25em;
+//   max-width: 100%;
+// }
+body.single img {
+  max-width: calc(100% + 150px);
+  margin-left: -75px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   height: auto;
-  margin-bottom: 1em;
-}
-img {
-  margin-bottom: 1.25em;
-  max-width: 100%;
 }
 h1.entry-title {
   color: $brand-dark;

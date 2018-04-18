@@ -1,6 +1,6 @@
 <?php
 /*
-Template Name: Stories Archive
+Template Name: Resources Archive
 */
 ?>
 <div class="row">

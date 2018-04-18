@@ -2,9 +2,14 @@
 //Adds a read more link in the excerpt
 function new_excerpt_more($more) {
   global $post;
-   return '… <a href="'. get_permalink($post->ID) . '">' . 'Read More' . '</a>';
+   return '… <a style="color: #4CAF50;" href="'. get_permalink($post->ID) . '">' . 'Read More' . '</a>';
    }
 add_filter('excerpt_more', 'new_excerpt_more');
+
+function custom_excerpt_length( $length ) {
+	return 20;
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 //Improves the pagination on the blog archive
 //https://discourse.roots.io/t/pagination-instead-of-pager/301/3
