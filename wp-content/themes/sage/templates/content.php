@@ -1,4 +1,4 @@
-<div class="col-sm-12 col-md-12 col-lg-6">
+<div class="col-sm-12 col-md-12 col-lg-4">
 <article <?php post_class(); ?>>
   <div class="flat-card">
     <div class="card-img">

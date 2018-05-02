@@ -2,10 +2,10 @@
     <div class="col-sm-12 col-lg-8 col-lg-offset-2">
       <?php while (have_posts()) : the_post(); ?>
         <article <?php post_class(); ?>>
-          <!-- <?php
+          <?php
             if (has_post_thumbnail() ) {
       	       the_post_thumbnail();
-             }?> -->
+             }?>
           <header>
             <h1 class="entry-title"><?php the_title(); ?></h1>
             <?php get_template_part('templates/entry-meta'); ?>
