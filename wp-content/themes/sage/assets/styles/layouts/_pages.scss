@@ -7,16 +7,18 @@
 // body.home .col-lg-4:nth-child(3n+1) {
 //   clear: left;
 // }
+
+body.home .row{
+  padding: 0 50px;
+}
 .main, aside.sidebar {
   margin-top: 3em;
 }
-
 @media (max-width: 600px) {
   .main, aside.sidebar {
     margin-top: 1em;
   }
 }
 .section-break {
-  padding: 50px 0;
-  margin: 50px 0;
+  margin-bottom: 85px;
 }
