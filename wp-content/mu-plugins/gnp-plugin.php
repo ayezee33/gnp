@@ -36,7 +36,7 @@ function create_post_type() {
       'public' => true,
       'has_archive' => true,
       'menu_position' => 5,
-      'rewrite' => array('slug' => 'resource'),
+      'rewrite' => array('slug' => 'resources'),
       'taxonomies'  => array( 'purpose' ),
 			'supports' => array( 'title', 'editor', 'thumbnail' ),
     )

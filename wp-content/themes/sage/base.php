@@ -22,12 +22,13 @@ use Roots\Sage\Wrapper;
     <?php if(is_page_template('template-home.php')) { ?>
     <!-- <?php $background_image = wp_get_attachment_image_src(get_field('background_image'), 'full'); ?> -->
     <div style="background: url(<?php the_field('background_image')?>) no-repeat center center; background-size: cover;" class="<?php the_field('image_options'); ?> <?php the_field('color'); ?>">
-      <div class="container">
+      <div style="max-width: 1100px;" class="container">
         <div class="row">
           <div class="col-sm-12 col-lg-6">
             <h1><strong><?php the_field('hero_heading'); ?></strong></h1>
             <h3 class="lead"><?php the_field('hero_subheading'); ?></h3>
-            <?php echo do_shortcode('[gravityform id="1" title="false" description="false"]'); ?>
+            <a class="btn btn-lg btn-outline" href="/login/">Login</a>
+            <a class="btn btn-lg btn-success" href="/register/">Create Your Account</a>
           </div>
           <div class="col-sm-12 col-lg-6">
             <img class="streamline-illustration center hidden-sm hidden-xs" src="http://growthandpurpose.com/wp-content/uploads/user@2x.png" alt="user illustration">

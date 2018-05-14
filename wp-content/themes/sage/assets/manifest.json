@@ -30,6 +30,6 @@
     }
   },
   "config": {
-    "devUrl": "http://growthandpurpose.dev"
+    "devUrl": "http://localhost:8888/gnp/"
   }
 }

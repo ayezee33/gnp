@@ -96,8 +96,10 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page_template('template-landing.php'),
     is_page_template('template-home.php'),
-    is_home(), 
+    is_home(),
     is_single(),
+    is_archive(),
+    is_archive('resources'),
   ]);
 
   return apply_filters('sage/display_sidebar', $display);
