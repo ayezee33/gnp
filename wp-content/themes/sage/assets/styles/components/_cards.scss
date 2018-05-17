@@ -1,8 +1,23 @@
 .card-img img {
   display: block;
   max-width: 100%;
+  margin: 0 auto;
   height: auto;
   box-shadow: none;
+}
+.resource-card-img {
+  display: block;
+  max-width: 100%;
+  background: #d6dbff;
+  img {
+    max-width: 130px;
+    height: auto;
+    display: block;
+    padding: 10px;
+    margin: 0 auto;
+    box-shadow: none;
+
+  }
 }
 .flat-card {
   position: relative;

@@ -27,8 +27,9 @@ use Roots\Sage\Wrapper;
           <div class="col-sm-12 col-lg-6">
             <h1><strong><?php the_field('hero_heading'); ?></strong></h1>
             <h3 class="lead"><?php the_field('hero_subheading'); ?></h3>
-            <a class="btn btn-lg btn-outline" href="/login/">Login</a>
-            <a class="btn btn-lg btn-success" href="/register/">Create Your Account</a>
+            <!-- <a class="btn btn-lg btn-outline" href="/login/">Login</a>
+            <a class="btn btn-lg btn-success" href="/register/">Create Your Account</a> -->
+            <a class="btn btn-lg btn-success" href="/resources/">Get Started</a>
           </div>
           <div class="col-sm-12 col-lg-6">
             <img class="streamline-illustration center hidden-sm hidden-xs" src="http://growthandpurpose.com/wp-content/uploads/user@2x.png" alt="user illustration">
