@@ -7,7 +7,7 @@
   background: $brand-primary!important;
   color: white!important;
 }
-.brand-secondary {
+.brand-light{
   background: $brand-light!important;
 }
 .streamline-illustration {
@@ -15,6 +15,9 @@
 }
 .xl-streamline-illustration {
   width: 400px;
+}
+.sm-streamline-illustration {
+  width: 150px;
 }
 .mb1 {
   margin-bottom: 1em;
