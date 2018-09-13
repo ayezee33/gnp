@@ -14,3 +14,46 @@ ol li {
   line-height: 1.7;
   margin-bottom: 20px;
 }
+a {
+  color: $brand-accent;
+}
+blockquote{
+  font-size: 1.4em;
+  margin:50px auto;
+  font-style:italic;
+  color: #34353d;
+  padding:1.2em 30px 1.2em 75px;
+  border-left:8px solid $brand-accent;
+  line-height:1.6;
+  position: relative;
+  background: $gray;
+}
+
+blockquote::before {
+  font-family:Arial;
+  content: "\201C";
+  color: $brand-accent;
+  font-size:4em;
+  position: absolute;
+  left: 10px;
+  top:-10px;
+}
+
+blockquote::after{
+  content: '';
+}
+
+blockquote cite a {
+  display:block;
+  color: $brand-accent;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}
+blockquote cite {
+  display:block;
+  color: $brand-accent;
+  font-style: normal;
+  font-weight: bold;
+  margin-top:1em;
+}

@@ -4,7 +4,7 @@
        <div class="col-sm-12 col-md-12 col-lg-8 col-lg-offset-2">
          <article <?php post_class(); ?>>
            <header>
-             <h1 class="center"><?php the_title(); ?></h1>
+             <h1 class="center mb1m"><?php the_title(); ?></h1>
            </header>
            <div class="entry-content">
              <?php the_content(); ?>

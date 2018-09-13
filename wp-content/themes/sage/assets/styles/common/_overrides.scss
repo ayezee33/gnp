@@ -7,14 +7,17 @@
   background: $brand-primary!important;
   color: white!important;
 }
-.brand-secondary {
+.brand-light{
   background: $brand-light!important;
 }
 .streamline-illustration {
   width: 300px;
 }
 .xl-streamline-illustration {
-  width: 500px;
+  width: 400px;
+}
+.sm-streamline-illustration {
+  width: 150px;
 }
 .mb1 {
   margin-bottom: 1em;
