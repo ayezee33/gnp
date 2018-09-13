@@ -96,6 +96,7 @@ function display_sidebar() {
     is_page_template('template-custom.php'),
     is_page_template('template-landing.php'),
     is_page_template('template-home.php'),
+    is_page_template('template-acct-partner.php'),
     is_home(),
     is_single(),
     is_archive(),
