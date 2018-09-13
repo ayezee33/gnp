@@ -21,12 +21,12 @@ blockquote{
   font-size: 1.4em;
   margin:50px auto;
   font-style:italic;
-  color: #555555;
+  color: #34353d;
   padding:1.2em 30px 1.2em 75px;
   border-left:8px solid $brand-accent;
   line-height:1.6;
   position: relative;
-  background:#EDEDED;
+  background: $gray;
 }
 
 blockquote::before {
