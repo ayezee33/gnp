@@ -15,14 +15,14 @@ body.single img {
   margin-bottom: 20px;
   height: auto;
 }
-entry-title {
+.entry-title {
   text-align: center;
   margin-top: 1em;
   font-weight: 500;
   font-size: 2.75em;
   line-height: 1.4;
   a {
-    color: $brand-light;
+    color: #333;
   }
 }
 .entry-meta {
@@ -33,12 +33,13 @@ entry-title {
   display: block;
   margin: 1em auto;
   width: 65px;
-  height: 14px;
+  height: 7px;
   background: $brand-light;
   border: none;
 }
 .post h2 {
   margin:1em 0 1.25em 0;
+  color: #333;
 }
 .lead {
   font-size: 1.33em;
@@ -74,7 +75,7 @@ entry-title {
   font-weight: 700;
   font-size: 38px;
   margin: 50px 0;
-  color: $green;
+  color: $brand-accent;
 }
 
 .page_nav {

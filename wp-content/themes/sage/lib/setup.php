@@ -92,14 +92,11 @@ function display_sidebar() {
     // The sidebar will NOT be displayed if ANY of the following return true.
     // @link https://codex.wordpress.org/Conditional_Tags
     is_404(),
-    is_front_page(),
     is_page_template('template-custom.php'),
     is_page_template('template-landing.php'),
     is_page_template('template-home.php'),
     is_page_template('template-acct-partner.php'),
-    is_home(),
     is_single(),
-    is_archive(),
     is_archive('resources'),
   ]);
 

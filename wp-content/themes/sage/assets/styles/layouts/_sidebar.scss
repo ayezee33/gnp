@@ -1,19 +1,19 @@
 .textwidget img {
-  max-width: 100%;
-  height: auto;
+  border: 1px solid $gray;
+}
+section.widget {
+  margin-bottom: 20px;
 }
 .widget_categories ul,
 .widget_recent_entries ul {
   list-style-type: none;
   padding: 0;
   li {
-    background: $brand_light;
-    border: 2px solid $brand-light;
+    border-bottom: 2px solid $gray;
     padding: 15px;
-    color: #fff;
     margin-bottom: 1rem;
     a {
-      color: #fff;
+      color: #333;
       &:hover {
         text-decoration: none;
       }

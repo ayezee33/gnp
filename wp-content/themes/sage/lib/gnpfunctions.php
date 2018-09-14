@@ -2,12 +2,12 @@
 //Adds a read more link in the excerpt
 function new_excerpt_more($more) {
   global $post;
-   return '… <a style="color: #4CAF50;" href="'. get_permalink($post->ID) . '">' . 'Read More' . '</a>';
+   return '… <p><a class="btn btn-primary" href="'. get_permalink($post->ID) . '">' . 'Continue Reading' . '</a></p>';
    }
 add_filter('excerpt_more', 'new_excerpt_more');
 
 function custom_excerpt_length( $length ) {
-	return 33;
+	return 100;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
