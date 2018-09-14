@@ -4,6 +4,8 @@
 }
 .btn-primary {
   border-bottom: 2px solid #2b7bb5;
+  font-size: 18px;
+  border-bottom: 2px solid #115497;
 }
 .btn-accent {
   background: $brand-accent;
@@ -22,6 +24,10 @@
   display: block;
   margin: 10px auto;
   max-width: 300px;
+}
+.btn-xl {
+  padding: 10px 20px;
+  font-size: 18px;
 }
 .entry-share-btns a, .entry-content .entry-share-btns a {
   background: $green;
