@@ -11,6 +11,7 @@
     <div class="card-content">
       <header>
         <h2 style="font-size: 45px; margin-bottom: 15px; color: #333;"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+        <?php get_template_part('templates/entry-meta'); ?>
         <?php the_excerpt(); ?>
       </header>
     </div>
