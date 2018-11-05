@@ -1,14 +1,8 @@
-// img.wp-post-image {
-//   box-shadow: 2px 15px 15px -10px rgba(65,64,66,.5);
-//   max-width: 100%;
-//   height: auto;
-//   margin-bottom: 1em;
-// }
-// img {
-//   margin-bottom: 1.25em;
-//   max-width: 100%;
-// }
 body.single img {
+  max-width: 100%;
+  height: auto;
+}
+body.single .no-limit-img {
   max-width: calc(100% + 150px);
   margin-left: -75px;
   margin-top: 20px;
@@ -17,15 +11,20 @@ body.single img {
 }
 .entry-title {
   margin-top: 1em;
-  font-weight: 500;
-  font-size: 2.75em;
+  font-weight: 600;
+  font-size: 36px;
   line-height: 1.4;
+  text-align: center;
   a {
     color: #333;
   }
 }
 .entry-meta {
   color: #333;
+  text-align: center;
+}
+body.blog .entry-meta {
+  text-align: left;
 }
 .post-divider {
   display: block;
@@ -68,10 +67,10 @@ body.single img {
   border: 1px solid $brand-light;
 }
 .callout {
-  line-height: 1.6;
+  line-height: 1.3;
   font-weight: 700;
-  font-size: 38px;
-  margin: 50px 0;
+  font-size: 28px;
+  margin: 30px 0;
   color: $brand-accent;
 }
 

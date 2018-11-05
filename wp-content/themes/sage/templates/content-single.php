@@ -13,6 +13,7 @@
           <hr class="post-divider" />
           <div class="entry-content">
             <?php the_content(); ?>
+            <h4 class="center mb1">Get Social</h4>
             <?php echo do_shortcode('[share]') ?>
             <hr />
 
