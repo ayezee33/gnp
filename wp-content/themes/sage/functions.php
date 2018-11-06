@@ -33,3 +33,8 @@ add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button($button, $form) {
     return '<input type="submit" class="btn btn-success" id="gform_submit_button_' . $form['id'] . '" value="' . $form['button']['text'] . '">';
 }
+
+function wpdocs_custom_excerpt_length( $length ) {
+    return 20;
+}
+add_filter( 'excerpt_length', 'wpdocs_custom_excerpt_length', 999 );
