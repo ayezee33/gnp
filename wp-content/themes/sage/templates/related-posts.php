@@ -8,7 +8,7 @@ if (get_post_type() == 'post') {
   ]);
   if ($related->have_posts()) : ?>
 
-    <div class="relatedposts">
+    <div class="relatedposts well">
       <h2 class="center">You might also like...</h2>
       <div class="row">
         <?php while( $related->have_posts() ) : $related->the_post(); ?>
@@ -17,9 +17,9 @@ if (get_post_type() == 'post') {
               <?php if (has_post_thumbnail()) : ?>
                 <?php the_post_thumbnail('blog-thumb'); ?>
               <?php else: ?>
-                <img src="<?php echo get_template_directory_uri(); ?>/assets/img/featured-img-default.jpg">
+                <img src="/wp-content/uploads/featured-img-default.jpg">
               <?php endif; ?>
-              <h3><?php the_title(); ?></h3>
+              <h4 class="center"><?php the_title(); ?></h4>
             </a>
           </div>
         <?php endwhile; ?>
