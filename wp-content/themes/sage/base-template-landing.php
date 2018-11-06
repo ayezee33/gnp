@@ -24,10 +24,18 @@ use Roots\Sage\Wrapper;
     <div style="background: url(<?php the_field('background_image')?>) no-repeat center center; background-size: cover;" class="<?php the_field('image_options'); ?> <?php the_field('color'); ?>">
       <div class="container">
         <div class="row">
+          <?php if( get_field('hero_layout') == 'stacked' ) { ?>
           <div class="col-sm-12 col-lg-8 col-lg-offset-2">
-            <h1 class="center"><?php the_field('hero_heading'); ?></h1>
-            <h3 class="lead center"><?php the_field('hero_subheading'); ?></h3>
+            <?php the_field('left_hero_content'); ?>
           </div>
+        <?php } elseif( get_field('hero_layout') == '2col' ) { ?>
+            <div class="col-sm-12 col-lg-6">
+              <?php the_field('left_hero_content'); ?>
+            </div>
+            <div class="col-sm-12 col-lg-6">
+              <?php the_field('right_hero_content'); ?>
+            </div>
+          <?php } ?>
         </div>
       </div>
     </div>
