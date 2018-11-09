@@ -97,6 +97,7 @@ function display_sidebar() {
     is_page_template('template-home.php'),
     is_page_template('template-acct-partner.php'),
     is_single(),
+    is_front_page(),
     is_archive('resources'),
   ]);
 
