@@ -21,7 +21,6 @@
   box-shadow: 0 3px 6px rgba(0,0,0,0.16),
   0 3px 6px rgba(0,0,0,0.23);
 }
-body.home {
   .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
     height: 55px;
   }
@@ -32,23 +31,25 @@ body.home {
   }
   .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
     height: 55px!important;
-    font-size: 1.5em;
+    font-size: 1.25em;
     padding: 10px 25px;
-    background: $brand-primary;
-    border: 1px solid $brand-primary;
+    background: $brand-accent;
+    border: 1px solid $brand-accent;
     color: white;
     border-radius: 5px;
     margin-top: 11px;
   }
-}
+
 div.gf_simple_horizontal div.gform_body, div.gf_simple_horizontal_wrapper div.gform_body {
   width: 57%!important;
 }
-@media (max-width: 680px) {
-  body.home {
-    .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=image], .gform_wrapper .gform_footer input[type=submit] {
+@media only screen
+and (min-device-width : 375px)
+and (max-device-width : 812px) {
+    .gform_wrapper .gform_footer input.button, .gform_wrapper .gform_footer input[type=submit], .gform_wrapper .gform_page_footer input.button, .gform_wrapper .gform_page_footer input[type=submit] {
       display: block!important;
       width: 100%!important;
+      font-size: 1em!important;
     }
     div.gf_simple_horizontal div.gform_footer, div.gf_simple_horizontal_wrapper div.gform_footer {
       width: 100%;
@@ -57,5 +58,4 @@ div.gf_simple_horizontal div.gform_body, div.gf_simple_horizontal_wrapper div.gf
       display: block!important;
       width: 100%;
     }
-  }
 }
