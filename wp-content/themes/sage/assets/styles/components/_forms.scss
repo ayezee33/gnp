@@ -13,6 +13,14 @@
   @extend .btn;
   @extend .btn-default;
 }
+.gform_wrapper {
+  padding: 20px;
+  background: #fff;
+  color: #555;
+  border-radius: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+  0 3px 6px rgba(0,0,0,0.23);
+}
 body.home {
   .gform_wrapper.gf_browser_chrome ul.gform_fields li.gfield select {
     height: 55px;
@@ -26,8 +34,8 @@ body.home {
     height: 55px!important;
     font-size: 1.5em;
     padding: 10px 25px;
-    background: $green;
-    border: 1px solid $green;
+    background: $brand-primary;
+    border: 1px solid $brand-primary;
     color: white;
     border-radius: 5px;
     margin-top: 11px;
