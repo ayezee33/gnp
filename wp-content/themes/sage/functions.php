@@ -31,7 +31,7 @@ unset($file, $filepath);
 
 add_filter( 'gform_submit_button', 'form_submit_button', 10, 2 );
 function form_submit_button($button, $form) {
-    return '<input type="submit" style="width: 100%; font-size: 24px;" class="btn btn-success" id="gform_submit_button_' . $form['id'] . '" value="' . $form['button']['text'] . '">';
+    return '<input type="submit" style="width: 100%;" class="btn btn-success" id="gform_submit_button_' . $form['id'] . '" value="' . $form['button']['text'] . '">';
 }
 
 function wpdocs_custom_excerpt_length( $length ) {
