@@ -59,3 +59,11 @@ and (max-device-width : 812px) {
       width: 100%;
     }
 }
+
+#main_countedown_1 .time_left {
+    border-radius: 8px;
+    background-color: #0a74d5;
+    font-size: 23px;
+    font-family: inherit;
+    color: #fff;
+}

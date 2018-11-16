@@ -1,16 +1,28 @@
+.btn-primary {
+  background: $brand-primary;
+  border-bottom: 2px solid #115497;
+  font-size: 18px;
+}
 .btn-danger {
   background: #F44336;
   border-bottom: 2px solid #CB2B20;
-}
-.btn-primary {
-  border-bottom: 2px solid #2b7bb5;
   font-size: 18px;
-  border-bottom: 2px solid #115497;
+}
+.btn-warning {
+  background: #ff5722;
+  border-bottom: 2px solid #c41c00;
+  font-size: 18px;
 }
 .btn-accent {
   background: $brand-accent;
-  border-bottom: 2px solid #CB2B20;
+  border-bottom: 2px solid #2b7bb5;
   color: white;
+  font-size: 18px;
+}
+.btn-success {
+  background: #66bb6a;
+  background-bottom: 2px solid #338a3e;
+  font-size: 18px;
 }
 .btn-outline {
   border: 1px solid white;
